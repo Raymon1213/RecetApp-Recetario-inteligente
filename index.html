@@ -1,0 +1,8 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>RecetApp – Recetario inteligente</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<div id="login" class="w box"><h2>RecetApp · Iniciar sesión</h2><p class="mu">Prototipo académico: la cuenta y los datos se guardan solo en este navegador.</p>
+<label>Correo electrónico<input id="em" type="email" placeholder="ejemplo@correo.com"></label>
+<label>Contraseña (mín. 6 caracteres)<input id="pw" type="password"></label>
+<button class="p" style="width:100%" onclick="login()">Iniciar sesión / Registrarme</button><p id="err" class="mu"></p></div>
+<div id="app" class="hid"><header><b>🍳 RecetApp</b><span><span id="who" class="mu"></span> <button onclick="logout()">Salir</button></span></header><main>
+<nav id="nav"></nav><section id="v"></section></main></div>
+<script src="js/data.js"></script><script src="js/app.js"></script></body></html>
